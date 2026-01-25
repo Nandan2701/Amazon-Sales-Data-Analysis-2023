@@ -140,3 +140,27 @@ Purpose:
 
 ## Folder Structure
 
+data/ → dataset
+notebooks/ → Python cleaning & exploration
+sql/ → SQL queries
+dashboards/ → Power BI files
+reports/ → PDF analysis reports
+
+---
+
+## Key Learning Outcomes
+
+- Learned how to clean large real-world datasets  
+- Practiced writing analytical SQL queries  
+- Understood how business questions map to data queries  
+- Gained experience presenting results using dashboards  
+
+---
+
+## Limitations
+
+- Dataset is static (no time-series modeling)  
+- Analysis is descriptive, not predictive  
+- Focus is on learning workflow rather than advanced modeling  
+
+---
