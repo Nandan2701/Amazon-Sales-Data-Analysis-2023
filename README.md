@@ -140,11 +140,11 @@ Purpose:
 
 ## Folder Structure
 
-data/ → dataset
-notebooks/ → Python cleaning & exploration
-sql/ → SQL queries
-dashboards/ → Power BI files
-reports/ → PDF analysis reports
+- data/ → dataset  
+- notebooks/ → Python cleaning & exploration  
+- sql/ → SQL queries  
+- dashboards/ → Power BI files  
+- reports/ → PDF analysis reports  
 
 ---
 
