@@ -2,7 +2,11 @@
 
 ## Project Overview
 
-This project is an end-to-end exploratory data analysis of the **Amazon Sales Data 2023** dataset.  
+This project is an end-to-end exploratory data analysis of the Amazon Sales Data 2023 dataset.
+
+The dataset is structured into 19 main categories and 112 sub-categories, and the entire analysis is performed at both levels.
+This hierarchical structure allows for deeper insights by comparing performance not just across broad categories, but also within their internal sub-category distributions.
+
 The objective is to understand marketplace behavior using pricing, revenue, sales volume, and customer ratings.
 
 Instead of creating separate repositories, four related analyses are grouped into one project:
