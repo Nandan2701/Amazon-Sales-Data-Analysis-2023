@@ -1,132 +1,154 @@
-Amazon-Sales-Data-Analysis-2023
-Project Overview
+# Amazon-Sales-Data-Analysis-2023
 
-This project is an end-to-end exploratory data analysis of the Amazon Sales Data 2023 dataset.
+## Project Overview
 
-The dataset is structured into 19 main categories and 112 sub-categories, and the entire analysis is performed at both levels.
-This hierarchical structure allows for deeper insights by comparing performance not just across broad categories, but also within their internal sub-category distributions.
-
+This project is an end-to-end exploratory data analysis of the **Amazon Sales Data 2023** dataset.  
 The objective is to understand marketplace behavior using pricing, revenue, sales volume, and customer ratings.
 
 Instead of creating separate repositories, four related analyses are grouped into one project:
 
-Category performance using revenue and sales volume
-Price architecture across categories
-Customer rating analysis
-Customer trust and engagement segmentation
+1. Category performance using revenue and sales volume  
+2. Price architecture across categories  
+3. Customer rating analysis  
+4. Customer trust and engagement segmentation  
 
 This project focuses on practicing:
 
-Data cleaning
-SQL-based analysis
-Business-oriented interpretation
-Dashboard-based visualization
-Dataset
+- Data cleaning  
+- SQL-based analysis  
+- Business-oriented interpretation  
+- Dashboard-based visualization  
 
-Source: Amazon Sales Data 2023
-Size: ~551,000 products
+---
 
-Structure:
+## Dataset
 
-Product name
-Main category (19 categories)
-Sub-category (112 sub-categories)
-Discount price
-Actual price
-Average rating
-Number of ratings
-Product link and image URL
+**Source:** Amazon Sales Data 2023  
+**Size:** ~551,000 products  
+**Structure:**
 
-The dataset is analyzed at both the main category level and sub-category level to ensure granular and hierarchical insights.
+- Product name  
+- Main category  
+- Sub-category  
+- Discount price  
+- Actual price  
+- Average rating  
+- Number of ratings  
+- Product link and image URL  
 
-Tools & Technologies
-Python (Pandas, NumPy) – data cleaning and preparation
-Jupyter Notebook – exploratory analysis
-PostgreSQL – structured analysis using SQL
-Power BI – visualization and dashboards
-Data Preparation
+---
+
+## Tools & Technologies
+
+- **Python (Pandas, NumPy)** – data cleaning and preparation  
+- **Jupyter Notebook** – exploratory analysis  
+- **PostgreSQL** – structured analysis using SQL  
+- **Power BI** – visualization and dashboards  
+
+---
+
+## Data Preparation
 
 Main steps:
 
-Removed currency symbols and text from price columns
-Converted relevant fields to numeric format
-Removed duplicate products
-Renamed columns for consistency and readability
-Analysis Breakdown
-1. Marketplace Category Segmentation (Revenue vs Volume)
+- Removed currency symbols and text from price columns  
+- Converted relevant fields to numeric format  
+- Removed duplicate products  
+- Renamed columns for consistency and readability  
 
-Categories and sub-categories were segmented into four groups:
+---
 
-High Revenue – High Volume
-High Revenue – Low Volume
-Low Revenue – High Volume
-Low Revenue – Low Volume
+## Analysis Breakdown
+
+### 1. Marketplace Category Segmentation (Revenue vs Volume)
+
+Categories were segmented into four groups:
+
+- High Revenue – High Volume  
+- High Revenue – Low Volume  
+- Low Revenue – High Volume  
+- Low Revenue – Low Volume  
 
 Purpose:
 
-Identify whether revenue comes from pricing or scale
-Highlight strong and weak performing categories at both hierarchy levels
-2. Price Architecture Analysis
+- Identify whether revenue comes from pricing or scale  
+- Highlight strong and weak performing categories  
+
+---
+
+### 2. Price Architecture Analysis
 
 Compared:
 
-Average price
-Median price
-Across categories and sub-categories
+- Average price  
+- Median price  
+  Across categories and sub-categories  
 
 Purpose:
 
-Understand price distribution
-Detect premium-driven vs mass-market categories
-Identify skewness caused by outliers
-3. Customer Rating Analysis
+- Understand price distribution  
+- Detect premium-driven vs mass-market categories  
+- Identify skewness caused by outliers  
+
+---
+
+### 3. Customer Rating Analysis
 
 Analyzed:
 
-Average ratings by sub-category
-Rating variations within main categories
+- Average ratings by sub-category  
+- Rating gaps inside main categories  
 
 Purpose:
 
-Identify stable vs problematic categories
-Separate quality issues from expectation mismatches
-Treat ratings as a diagnostic signal rather than only a score
-4. Customer Trust & Engagement Segmentation
+- Identify stable vs problematic categories  
+- Separate quality issues from expectation mismatches  
+- Treat ratings as a diagnostic signal rather than only a score  
+
+---
+
+### 4. Customer Trust & Engagement Segmentation
 
 Built a simple trust-engagement framework using:
 
-Average rating
-Number of ratings
+- Average rating  
+- Number of ratings  
 
-Categories and sub-categories were grouped into:
+Categories were grouped into:
 
-High Engagement – High Ratings
-High Engagement – Low Ratings
-Low Engagement – High Ratings
-Low Engagement – Low Ratings
+- High Engagement – High Ratings  
+- High Engagement – Low Ratings  
+- Low Engagement – High Ratings  
+- Low Engagement – Low Ratings  
 
 Purpose:
 
-Identify where to scale
-Where product quality needs fixing
-Where visibility is missing
-Where investment should be avoided
-Output
-SQL queries used for analysis
-Power BI dashboards for visualization
-PDF reports for each analysis part
-Folder Structure
+- Identify where to scale  
+- Where product quality needs fixing  
+- Where visibility is missing  
+- Where investment should be avoided  
+
+---
+
+## Output
+
+- SQL queries used for analysis  
+- Power BI dashboards for visualization  
+- PDF reports for each analysis part  
+
+---
+
+## Folder Structure
+
 data/ → dataset
 notebooks/ → Python cleaning & exploration
 sql/ → SQL queries
 dashboards/ → Power BI files
 reports/ → PDF analysis reports
-Key Learning Outcomes
-Learned how to clean large real-world datasets
-Practiced writing analytical SQL queries
-Understood how business questions map to data queries
-Gained experience presenting results using dashboards
-Limitations
-Dataset is static (no time-series modeling)
-Analysis is descriptive, not predictive
-Focus is on learning workflow rather than advanced modeling
+- data/ → dataset  
+- notebooks/ → Python cleaning & exploration  
+- sql/ → SQL queries  
+- dashboards/ → Power BI files  
+- reports/ → PDF analysis reports  
+
+---
